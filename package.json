@@ -1,0 +1,34 @@
+{
+  "name": "rest-api-boilerplate",
+  "version": "0.0.0",
+  "description": "REST API Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server",
+    "test": "jest --detectOpenHandles routes --runInBand --forceExit",
+    "test:watch": "jest --watch routes --runInBand"
+  },
+  "author": "Michael Rambeau",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-babel": "^5.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.2",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "@feathersjs/express": "^1.2.7",
+    "@feathersjs/feathers": "^3.2.3",
+    "cors": "^2.8.4",
+    "debug": "^4.0.1",
+    "dotenv-safe": "^6.0.0",
+    "feathers-mongoose": "^6.2.0",
+    "mongoose": "^5.3.1"
+  }
+}
