@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node ./src/server",
     "test": "jest --detectOpenHandles routes --runInBand --forceExit",
-    "test:watch": "jest --watch routes --runInBand"
+    "test:watch": "jest --watch routes --runInBand",
+    "deploy": "now"
   },
   "author": "Michael Rambeau",
   "license": "ISC",

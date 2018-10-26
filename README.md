@@ -1,27 +1,37 @@
-# REST API Boilerplate
+# My Todo List API
 
-A basic REST API to create, read, update and delete "To Do" items stored in a MongoDB database
+A basic REST API to create, read, update and delete "To Do" items stored in a MongoDB database.
 
-Made with [Feathers](https://feathersjs.com/)
+Made with [FeathersJS](https://feathersjs.com/).
 
 Features:
 
 - [x] CRUD operations
 - [x] Search by title
-- [x] Testing
+- [x] Testing with Jest
 
-## Development steps
+## Commands
 
-Install the dev dependencies used for linting, formatting and testing code:
-
-- Jest
-- ESLint
-- Prettier
-
-Install the dependencies to run Feathers
+Start the server
 
 ```
-npm install cors @feathersjs/feathers @feathersjs/express dotenv-safe mongoose feathers-mongoose debug
+npm start
 ```
 
-Create a "todos" service that implement the Feathers Mongoose service.
+Deploy on [Now.sh](https://zeit.co/now)
+
+```
+npm run deploy
+```
+
+Run the tests
+
+```
+npm test
+```
+
+Run the tests in watch mode
+
+```
+npm run test:watch
+```

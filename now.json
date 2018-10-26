@@ -1,0 +1,11 @@
+{
+  "name": "todo-api",
+  "env": {
+    "NODE_ENV": "production",
+    "DB_ENV": "production",
+    "DEBUG": "api",
+    "MONGO_URI_PRODUCTION": "@todo_production_mongo_uri",
+    "MONGO_URI_DEV": "@todo_dev_mongo_uri"
+  },
+  "alias": "todo-api-v0"
+}
